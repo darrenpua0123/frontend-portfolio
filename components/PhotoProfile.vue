@@ -4,5 +4,5 @@ const { data: { photo } } = app
 </script>
 
 <template>
-    <UAvatar :src="photo" size="3xl" alt="my-profile-photo" height="200" />
+    <UAvatar draggable="false" :src="photo" size="3xl" alt="my-profile-photo" height="200" />
 </template>
